@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\umh\\poo2\\UMH-POO\\Directorio\\Directorio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{824D7090-448D-4A42-8C5E-6BEE86CF5FD2}|Directorio.csproj|d:\\umh\\poo2\\umh-poo\\directorio\\directorio\\clases\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824D7090-448D-4A42-8C5E-6BEE86CF5FD2}|Directorio.csproj|solutionrelative:clases\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824D7090-448D-4A42-8C5E-6BEE86CF5FD2}|Directorio.csproj|D:\\umh\\poo2\\UMH-POO\\Directorio\\Directorio\\clases\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824D7090-448D-4A42-8C5E-6BEE86CF5FD2}|Directorio.csproj|solutionrelative:clases\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824D7090-448D-4A42-8C5E-6BEE86CF5FD2}|Directorio.csproj|D:\\umh\\poo2\\UMH-POO\\Directorio\\Directorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824D7090-448D-4A42-8C5E-6BEE86CF5FD2}|Directorio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Marcador.cs",
+              "DocumentMoniker": "D:\\umh\\poo2\\UMH-POO\\Directorio\\Directorio\\Clases\\Marcador.cs",
+              "RelativeDocumentMoniker": "Clases\\Marcador.cs",
+              "ToolTip": "D:\\umh\\poo2\\UMH-POO\\Directorio\\Directorio\\Clases\\Marcador.cs",
+              "RelativeToolTip": "Clases\\Marcador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:19:07.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "D:\\umh\\poo2\\UMH-POO\\Directorio\\Directorio\\Clases\\Persona.cs",
+              "RelativeDocumentMoniker": "Clases\\Persona.cs",
+              "ToolTip": "D:\\umh\\poo2\\UMH-POO\\Directorio\\Directorio\\Clases\\Persona.cs",
+              "RelativeToolTip": "Clases\\Persona.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:14:49.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\umh\\poo2\\UMH-POO\\Directorio\\Directorio\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\umh\\poo2\\UMH-POO\\Directorio\\Directorio\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:08:33.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
