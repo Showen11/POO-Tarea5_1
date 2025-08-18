@@ -6,3 +6,11 @@ D:\umh\poo2\UMH-POO\Directorio\Directorio\bin\Debug\Directorio.pdb
 D:\umh\poo2\UMH-POO\Directorio\Directorio\obj\Debug\Directorio.exe
 D:\umh\poo2\UMH-POO\Directorio\Directorio\obj\Debug\Directorio.pdb
 D:\umh\poo2\UMH-POO\Directorio\Directorio\obj\Debug\Directorio.exe.config
+D:\umh\poo2\UMH-POO\POO-Tarea5_1\Directorio\obj\Debug\Directorio.csproj.AssemblyReference.cache
+D:\umh\poo2\UMH-POO\POO-Tarea5_1\Directorio\obj\Debug\Directorio.exe.config
+D:\umh\poo2\UMH-POO\POO-Tarea5_1\Directorio\obj\Debug\Directorio.csproj.CoreCompileInputs.cache
+D:\umh\poo2\UMH-POO\POO-Tarea5_1\Directorio\obj\Debug\Directorio.exe
+D:\umh\poo2\UMH-POO\POO-Tarea5_1\Directorio\obj\Debug\Directorio.pdb
+D:\umh\poo2\UMH-POO\POO-Tarea5_1\Directorio\bin\Debug\Directorio.exe.config
+D:\umh\poo2\UMH-POO\POO-Tarea5_1\Directorio\bin\Debug\Directorio.exe
+D:\umh\poo2\UMH-POO\POO-Tarea5_1\Directorio\bin\Debug\Directorio.pdb

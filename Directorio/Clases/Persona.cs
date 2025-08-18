@@ -26,7 +26,13 @@ namespace Directorio.Clases
 
         public Persona(string p_nombre)
         {
-            this.nombres = p_nombre;    
+            this.nombres = p_nombre;
+        }
+
+        public Persona(string p_nombre, string p_apellido)
+        {
+            this.nombres = p_nombre;
+            this.apellidos = p_apellido;
         }
 
         public string getNombre()
