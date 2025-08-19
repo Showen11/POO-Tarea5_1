@@ -11,31 +11,25 @@ namespace Directorio
     {
         static void Main(string[] args)
         {
-            //Declaracion de objeto list
-            List<string> frutas = new List<string>();
-
-            frutas.Add("Manzana");
-            frutas.Add("Pera");
-
-            /*Console.WriteLine(frutas[0]);
-           // Console.WriteLine(frutas[1]);
-
             
-            //Estructura de repeticion for each para recorrer la lista
-            foreach (string fruta in frutas)
-            {
-                Console.WriteLine(fruta);
-            }
-            */
-
             List<Persona> personas = new List<Persona>();
+            string continuar = "Y";
+            string nombre = string.Empty;
+            string apellidos = string.Empty;
 
-            Persona per1 = new Persona("Gabriel", " Garcia Marquez");
-            Persona per2 = new Persona("Jose", " Saramargo");
+            while (continuar == "Y" || continuar == "y"){
+              Console.WriteLine("Ingrese un nombre...");
+              nombre = Console.ReadLine();
+              
+              Console.WriteLine("Ingrese apellidos");
+              apellidos = Console.ReadLine();
 
-            personas.Add(per1);
-            personas.Add(per2);
-            //personas.Add(new Persona("Pablo", " Neruda"));
+              personas.Add(new Persona(nombre, apellidos));
+              Console.WriteLine("Desea ingresar otra persona? (Y/N)");
+
+              continuar = Console.ReadLine();
+
+            }
 
             foreach (Persona per in personas)
             {
@@ -43,9 +37,7 @@ namespace Directorio
             }
             
 
-
             Console.ReadLine();
-
         }
 
         static void ejemploClassPersona() 
@@ -66,8 +58,23 @@ namespace Directorio
             nombrecompleto = persona.getNombreCompleto(" Jose Cecilio", "Del Valle");
 
             Console.WriteLine("Persona 2: " + nombrecompleto + "Salario: " + marcador.getSalario(35*4));
-           }
 
+            List<string> frutas = new List<string>();
+
+            frutas.Add("Manzana");
+            frutas.Add("Pera");
+
+            Console.WriteLine(frutas[0]);
+            // Console.WriteLine(frutas[1]);
+
+
+             //Estructura de repeticion for each para recorrer la lista
+             foreach (string fruta in frutas)
+             {
+                 Console.WriteLine(fruta);
+             }
+            
         }
+    }
     }
 
