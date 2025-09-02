@@ -11,14 +11,15 @@ namespace Directorio.Clases
     {
         private string numeroid { get; set; }
         private string nombres  { get; set; }
-        public string apellidos { get; set; }
-        public string direccion { get; set; }
-        public string edad { get; set; }
-        public DateTime fechaNacimiento { get; set; }
-
+        private string apellidos { get; set; }
+        private string edad { get; set; }
+        private DateTime fechaNacimiento { get; set; }
         public string telefono { get; set; }
-        public string celular { get; set; }
-        public string email { get; set; }
+        private string celular { get; set; }
+        private string email { get; set; }
+        private string pais { get; set; }
+        private string ciudad { get; set; }
+        private string direccion;
 
         public Persona (){ 
         this.nombres = "Jose";
@@ -33,6 +34,13 @@ namespace Directorio.Clases
         {
             this.nombres = p_nombre;
             this.apellidos = p_apellido;
+        }
+
+        public Persona(string p_nombre, string p_apellido, string p_direccion)
+        {
+            this.nombres = p_nombre;
+            this.apellidos = p_apellido;
+            this.direccion = p_direccion;
         }
 
         public string getNombre()
@@ -52,16 +60,27 @@ namespace Directorio.Clases
 
         public string getNombreCompleto()
         {
-            return this.nombres + this.apellidos;
+            return this.nombres +" "+ this.apellidos;
+        }
+
+        public void setDireccion(string direccion)
+        {
+            this.direccion = direccion;
+        }
+
+        public string getDireccion()
+        {
+            return this.direccion;
         }
 
         public string getNombreCompleto(string p_nombre, string p_apellido)
         {
             this.nombres = p_nombre;
             this.apellidos = p_apellido;
+
             return this.nombres + " " + this.apellidos;
         }
 
-
+       
     }
 }
